@@ -51,5 +51,31 @@ public class ProtagonistaGTA {
 		}
 		System.out.println();
 	}
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Integer getNivelBusqueda() {
+		return nivelBusqueda;
+	}
+
+	public void setNivelBusqueda(Integer nivelBusqueda) {
+		this.nivelBusqueda = nivelBusqueda;
+	}
+
+	public Double getDinero() {
+		return dinero;
+	}
+
+	public void setDinero(Double dinero) {
+		this.dinero = dinero;
+	}
+	
+	
 
 }

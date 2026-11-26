@@ -20,6 +20,8 @@ public class Main {
 		p1.mostrarFichaPolicial();
 		
 		p1.sobornarPolicia(3); // baja 3 estrella (no tiene dinero)
+		
+		System.out.println(p1.getNombre());
 
 	}
 

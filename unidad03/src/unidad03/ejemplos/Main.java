@@ -1,27 +1,35 @@
 package unidad03.ejemplos;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.time.LocalDate;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		LocalDate l;
 		
 		
 		int a = 1;
 		int b = a;
 
-		Persona p1 = new Persona("Pepe", 30, 1.79);
-		Persona p2 = new Persona("Ramón", 30, 1.79);
+		Persona p1 = new Persona("Vladi", 30, 1.79);
+		Persona p2 = null;
 		
-		p1.saludar();
 		
-		p1.cambiarNombre("");
-		p1.cambiarNombre("Roberto");
 		
-		p1.saludar();
+//		p1.saludar();
+//		
+//		p1.cambiarNombre("");
+//		p1.cambiarNombre("Roberto");
+//		
+//		p1.saludar();
+
+//		System.out.println(p1);
+//		System.out.println(p2);
+//		p1.cambiarNombre("pepe");
+//		
+//		p1.saludar();
+		p2.saludar();
 		
 		
 	}
